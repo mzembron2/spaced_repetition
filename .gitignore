@@ -1,0 +1,5 @@
+CMakeLists.txt.*
+mainwindow.ui.*
+.qtc_clangd
+.vscode/tasks.json
+zpr_projekt.creator.user
