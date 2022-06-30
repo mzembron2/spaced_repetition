@@ -1,7 +1,7 @@
 #include "ImageWidget.h"
 
-const float SCALE_MAX = 3.00;
-const float SCALE_MIN = 0.33;
+const float SCALE_MAX = 8.00;
+const float SCALE_MIN = 0.03;
 
 ImageWidget::ImageWidget(QWidget *parent, bool read_only_mode)
     : QWidget(parent)

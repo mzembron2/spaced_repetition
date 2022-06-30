@@ -11,7 +11,8 @@
 /// user are selected.
 ///
 /// Resources:
-/// <https://en.wikipedia.org/wiki/Spaced_repetition> 
+/// < https://en.wikipedia.org/wiki/Spaced_repetition > 
+/// < https://en.wikipedia.org/wiki/SuperMemo#Description_of_SM-2_algorithm >
 
 class Algorithm
 {
