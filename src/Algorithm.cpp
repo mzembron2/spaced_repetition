@@ -14,11 +14,11 @@ void Algorithm::updateFlashcardParams(Flashcard &flashcard, const int &response_
 {
     flashcard.setEFactor(countNewEFactor(flashcard.getEFactor(), response_quality));
     flashcard.setLastRepetitionInterval(countInterval(flashcard.getEFactor(),flashcard.getLastRepetitionInterval(), response_quality));
-    flashcard.setRepetitionDate(countNextRepetitionDate(flashcard.getRepetitionDate(),flashcard.getLastRepetitionInterval()));
+    flashcard.setRepetitionDate(calculateNextRepetitionDate(flashcard.getRepetitionDate(),flashcard.getLastRepetitionInterval()));
 
 }
 
-QDate Algorithm::countNextRepetitionDate(QDate last_repetition_date, int interval)
+QDate Algorithm::calculateNextRepetitionDate(QDate last_repetition_date, int interval)
 {
 
     if(last_repetition_date.isValid())

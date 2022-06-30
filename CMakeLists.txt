@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(zpr_projekt)
+project(spaced_repetition)
 
 enable_testing()
 
@@ -25,7 +25,7 @@ find_package(Qt5 COMPONENTS
         Multimedia
         REQUIRED)
 
-add_executable(zpr_projekt
+add_executable(spaced_repetition
         src/Main.cpp
         src/MainWindow.cpp
         src/MainWindow.h
@@ -53,7 +53,7 @@ add_executable(zpr_projekt
         src/TextWidget.h src/TextWidget.cpp
         UI/textwidget.ui)
 
-target_link_libraries(zpr_projekt
+target_link_libraries(spaced_repetition
         Qt5::Core
         Qt5::Gui
         Qt5::Widgets

@@ -17,7 +17,7 @@ public:
     void updateFlashcardParams(Flashcard &flashcard, const int &response_quality);
 private:
     bool isIntervalValid(const int& interval);
-    QDate countNextRepetitionDate(const QDate last_repetition_date, const int Interval);
+    QDate calculateNextRepetitionDate(const QDate last_repetition_date, const int Interval);
     float countInterval(const float &e_factor, const float &previous_interval, const int &response_quality);
     float countNewEFactor(const float &e_factor, const int &response_quality);
 
