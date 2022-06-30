@@ -9,6 +9,9 @@
 /// The class is responsible for computing the method
 /// parameters according to which questions for the
 /// user are selected.
+///
+/// Resources:
+/// <https://en.wikipedia.org/wiki/Spaced_repetition> 
 
 class Algorithm
 {

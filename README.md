@@ -3,7 +3,7 @@
 Authors: [Maciej Groszyk](https://github.com/MaciejGroszyk), [Mateusz Zembroń](https://github.com/mzembron)
 
 ## Introduction
-
+This project is a simple flashcard application that helps you learn anything using [spaced repetition method](https://en.wikipedia.org/wiki/Spaced_repetition), which will allow you to do it noticeably faster. Flashcards can contain text, images, or sound(there is an easy way to add new ones through the application). 
 ## Requirements
 - Qt5 `sudo apt install -y qtbase5-dev qt5-qmake cmake`
 - Qt5 multimedia: `sudo apt-get build-dep qtmultimedia5-dev`
