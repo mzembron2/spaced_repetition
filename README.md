@@ -1,21 +1,27 @@
-# ZPR_projekt
+# Flashcard application using spaced repetition SM-2 method
 
-Autorzy: Maciej Groszyk, Mateusz Zembroń
+Authors: [Maciej Groszyk](https://github.com/MaciejGroszyk), [Mateusz Zembroń](https://github.com/mzembron)
 
-# Szkielet aplikacji
+## Introduction
 
-Lista wymaganych bibliotek:
+## Requirements
 - Qt5 `sudo apt install -y qtbase5-dev qt5-qmake cmake`
 - Qt5 multimedia: `sudo apt-get build-dep qtmultimedia5-dev`
-- gtest (pobierane automatycznie przez cmake)
+- gtest (autmoaticly downloaded by cmake script)
 
-Przydatne komendy:
-`sudo apt-get install build-essential`
+    Useful command :
 
-Krótki sposób kompilacji i uruchomienia:
+    `sudo apt-get install build-essential`
 
-1. przejście do folderu głównego aplikacji
-2. `cmake CMakeLists.txt`
-3. `make`
-4. Uruchomienie aplikacji: `./<nazwa_utworzonego_pliku_wykonywalnego>` (najczęściej zpr_projekt)
-5. Uruchomienie testów jednostkowych: `ctest`
+## Running applicaion
+
+Compile project using following commands (in project directory):
+    
+ `cmake CMakeLists.txt`
+
+ `make`
+
+Now u can run applicaiton:
+
+ `./spaced_repetition`
+
